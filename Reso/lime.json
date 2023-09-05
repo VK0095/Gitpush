@@ -1,0 +1,119 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-10T11:37:57.887Z",
+        "line": 4,
+        "name": "To click on shop men button",
+        "description": "",
+        "id": "limeroad-order;to-click-on-shop-men-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 448801800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch url\"https://www.limeroad.com/\";",
+            "match": {
+              "location": "com.step.Step_defination.launch_url_https_www_limeroad_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3125874800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on shop men",
+            "match": {
+              "location": "com.step.Step_defination.user_clicks_on_shop_men()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-10T11:38:01.637Z",
+        "line": 8,
+        "name": "User select the product",
+        "description": "",
+        "id": "limeroad-order;user-select-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3130180700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the T-shirt",
+            "match": {
+              "location": "com.step.Step_defination.user_clicks_on_the_t_shirt()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3126646300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Select brand of Kanikacrystal",
+            "match": {
+              "location": "com.step.Step_defination.user_select_brand_of_kanikacrystal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3221392800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Select tshirt color purple",
+            "match": {
+              "location": "com.step.Step_defination.user_select_tshirt_color_purple()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3126000100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Select size 2XL",
+            "match": {
+              "location": "com.step.Step_defination.user_select_size_2xl()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3141236900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User add the tshirt to the Cart",
+            "match": {
+              "location": "com.step.Step_defination.user_add_the_tshirt_to_the_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Limeroad Order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/features/lime.feature",
+    "tags": []
+  }
+]
